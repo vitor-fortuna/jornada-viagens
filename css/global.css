@@ -53,9 +53,4 @@ body {
     font-size: 32px;
   }
 
-  .section-title hr {
-    width: 240px;
-    height: 6px;
-    margin: 20px auto 40px auto;
-  }
 }
