@@ -1,5 +1,5 @@
 .card {
-     background-color: black;
+  background-color: black;
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
@@ -18,13 +18,28 @@
 }
 
 .card header h3 {
-    font-size: 40px;
-    font-weight: var(--title-weight);
-    margin: 8px 0 0;
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
 }
 
 .card header span {
-    display: inline-block;
-    font-size: 32px;
-    margin-top: 24px;
+  display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
 }
