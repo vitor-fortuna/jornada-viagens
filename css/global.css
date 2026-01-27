@@ -32,12 +32,12 @@ body {
   color: var(--text-primary-color);
 }
 
-.section {
+section {
   width: 312px;
   margin: 0 auto 88px;
 }
 
-.section.hero {
+section.hero {
   width: 100%;
   margin: 0;
 }
@@ -45,6 +45,17 @@ body {
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
 }
 
 .section-title h2 {
@@ -78,14 +89,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    width: 648px;
+  section {
+    width: 656px;
   }
 
   .section-title {
-  width: 100%;
-  margin: 0 auto 32px;
-}
+    width: 100%;
+    margin: 0 auto 32px;
+  }
 
   .section-title h2 {
     font-size: 32px;
@@ -93,7 +104,7 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-  .section {
+  section {
     width: 900px;
   }
 
@@ -103,7 +114,7 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-  .section {
+  section {
     width: 1200px;
   }
 }

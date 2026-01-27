@@ -19,10 +19,6 @@
   color: var(--text-primary-color);
 }
 
-.categories-cards a.card h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
 
 .categories-cards a.card img {
   width: 80px;
@@ -53,10 +49,16 @@
   .categories-cards a.card {
     width: calc(25% - 24px);
     max-width: none;
+    padding: 24px 10px;
   }
-    .categories-cards a.card.single-line{
-    padding-top: 50px;
 
+  .categories-cards a.card h3 {
+    font-size: 24px;
+  
+  }
+
+  .categories-cards a.card.transfer {
+    padding-top: 50px;
   }
 
 }
