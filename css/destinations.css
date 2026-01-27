@@ -1,8 +1,3 @@
-.destinations {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .destinations-items {
   display: flex;
   flex-direction: column;
@@ -79,7 +74,7 @@
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
   }
   .destinations-items {
@@ -95,6 +90,9 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .destinations {
+    max-width: 1200px;
+  }
   .destinations-items {
     gap: 48px;
   }
