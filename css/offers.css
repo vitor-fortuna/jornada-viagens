@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 1440px) {
   .offers-cards .card {
-    width: 588px;
+    width: calc(50% - 16px);
     height: 308px;
   }
 }

@@ -13,14 +13,11 @@
 }
 
 .destinations .item h4 {
-  font-size: 24px;
-  font-weight: var(--title-weight);
-  margin-top: 8px;
+  margin: 24px 0;
 }
 
 .destinations .item p {
-  line-height: 1.6;
-  color: var(--text-primary-color);
+  margin-bottom: 24px;
 }
 
 .destinations .item footer {
