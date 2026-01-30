@@ -65,3 +65,65 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .payments {
+    display: grid;
+    grid-template-columns: 1fr 2.05fr;
+    column-gap: 23px;
+    align-items: start;
+  }
+
+  .payments .section-title {
+    grid-column: span 2;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+
+  .payments .text-content {
+    grid-column: 1;
+    text-align: left;
+    
+  }
+
+  .payments .text-content .content-title {
+    margin-bottom: 24px;
+  }
+
+  .image-content {
+    grid-column: 2;
+    width: 100%;
+    height: 460px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .image-content .image {
+    width: 100%;
+  }
+
+  .image.bag,
+  .image.passport {
+    height: 254px;
+  }
+
+  .image.people {
+    grid-column: span 2;
+    height: 182px;
+    background-position: bottom center;
+  }
+
+  .image.bag {
+    background-image: url("../img/img-bag-desktop.jpg");
+  }
+  .image.passport {
+    background-image: url("../img/img-passport-desktop.jpg");
+  }
+  .image.people {
+    background-image: url("../img/img-people-desktop.jpg");
+  }
+}
+
+
