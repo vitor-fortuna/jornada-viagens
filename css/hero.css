@@ -1,5 +1,5 @@
 .hero-img,
-.hero-img-pre-footer {
+.bottom-hero-img {
   width: 100%;
   height: 400px;
   background-position: center;
@@ -11,7 +11,7 @@
   background-image: url("../img/hero-mobile.jpg");
 }
 
-.hero-img-pre-footer {
+.bottom-hero-img {
   background-image: url("../img/hero-footer-mobile.jpg");
 }
 
@@ -29,7 +29,7 @@
     background-image: url("../img/hero-tablet.jpg");
   }
 
-  .hero-img-pre-footer {
+  .bottom-hero-img {
     background-image: url("../img/hero-footer-tablet.jpg");
   }
 
@@ -45,7 +45,7 @@
     background-image: url("../img/hero-desktop.jpg");
   }
 
-  .hero-img-pre-footer {
+  .bottom-hero-img {
     background-image: url("../img/hero-footer-desktop.jpg");
     height: 600px;
   }
