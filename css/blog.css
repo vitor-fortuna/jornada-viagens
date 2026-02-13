@@ -71,7 +71,6 @@
 
 @media screen and (min-width: 1024px) {
   .blog-hero {
-    height: 540px; /* Conforme Desktop (1).jpg */
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
                       url("../img/hero-blog-desktop.jpg");
   }
@@ -85,3 +84,4 @@
     max-width: 600px;
   }
 }
+
