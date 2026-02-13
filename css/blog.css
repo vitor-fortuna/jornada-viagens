@@ -36,7 +36,7 @@
     font-size: 20px;
 }
 
-/* IMAGENS DO POST */
+
 .post-image {
     width: 100%;
     margin: 24px 0;
@@ -106,7 +106,7 @@
 }
 
 
-/* DESKTOP (1024px) */
+
 @media screen and (min-width: 1024px) {
     .blog-hero {
         height: 540px;
@@ -125,5 +125,152 @@
     .image-ponte {
         width: 100%;
         background-image: url("../img/Tokyo-blog-ponte-desktop.jpg");
+    }
+}
+
+/* --- SEÇÃO RELATED POSTS --- */
+.related-posts {
+    
+    margin-bottom: 88px;
+}
+
+.related-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px; 
+}
+
+.related-card {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.related-image {
+    width: 312px;
+    height: 300px; 
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 16px;
+}
+
+.image-osaka {
+    background-image: url("../img/osaka-blog-mobile.jpg");
+}
+
+.image-hiroshima {
+    background-image: url("../img/hiroshima-blog-mobile.jpg");
+}
+
+.image-kyoto {
+    background-image: url("../img/kyoto-blog-mobile.jpg");
+}
+
+
+.related-content .content-title {
+    margin-bottom: 8px;
+    font-size: 24px; 
+}
+
+.related-content .content-text {
+    margin-bottom: 16px;
+    
+}
+
+.related-button {
+    width: 100%; 
+    min-width: unset;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .related-container {
+        gap: 48px; 
+    }
+
+    .related-card {
+        display: flex;
+        
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    /* Ajuste da Imagem no Tablet */
+    .related-image {
+        flex-shrink: 0; 
+        width: 648px;   
+        height: 300px;
+        margin-bottom: 0; 
+        
+    }
+
+    .image-osaka { background-image: url("../img/osaka-blog-tablet.jpg"); }
+    .image-hiroshima { background-image: url("../img/hiroshima-blog-tablet.jpg"); }
+    .image-kyoto { background-image: url("../img/kyoto-blog-tablet.jpg"); }
+
+    .related-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .related-button {
+        width: 280px;
+        height: 64px; 
+        
+    }
+}
+
+/* --- VERSÃO DESKTOP (1024px) --- */
+@media screen and (min-width: 1024px) {
+
+    
+    .related-container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px; 
+    }
+
+    .related-card {
+        flex: 1; 
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    /* Ajuste das imagens para Desktop */
+    .related-image {
+        width: 384px;
+        height: 300px; 
+        margin-bottom: 24px;
+    }
+
+    
+    .image-osaka {
+        background-image: url("../img/osaka-blog-desktop.jpg");
+    }
+    .image-hiroshima {
+        background-image: url("../img/hiroshima-blog-desktop.jpg");
+    }
+    .image-kyoto {
+        background-image: url("../img/kyoto-blog-desktop.jpg");
+    }
+
+    /* Estilo do conteúdo do card */
+    .related-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .related-content .content-text {
+        flex-grow: 1; 
+        margin-bottom: 24px;
+        line-height: 1.6;
+    }
+
+    .related-button {
+        
+        margin-top: auto;
     }
 }
