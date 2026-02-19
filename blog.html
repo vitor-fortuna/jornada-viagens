@@ -209,5 +209,19 @@
         </div>
       </div>
     </footer>
+<script>
+  const links = document.querySelectorAll('.list-links a');
+  const currentPath = window.location.pathname;
+
+  // Só aplica o sublinhado se NÃO estivermos na Home
+  if (currentPath !== "/" && !currentPath.includes("index.html")) {
+    links.forEach(link => {
+      // Se o link contiver o nome da página atual, ele ganha a marcação
+      if (currentPath.includes(link.getAttribute('href'))) {
+        link.classList.add('active-page');
+      }
+    });
+  }
+</script>
   </body>
 </html>

@@ -52,7 +52,21 @@ nav {
   color: var(--text-secondary-color);
   font-weight: var(--menu-text-weight);
   font-size: 24px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease
 }
+
+.list-links li a:hover,
+.list-links li a.active-page:hover {
+    border-bottom-color: var(--secondary-color);
+}
+
+.list-links li a.active-page {
+  
+    border-bottom-color: var(--text-secondary-color);
+    font-weight: var(--menu-text-weight);
+}
+
 
 @media screen and (min-width: 768px) {
   .navigation-menu {

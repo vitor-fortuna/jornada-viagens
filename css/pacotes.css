@@ -1,0 +1,76 @@
+@import url(style.css);
+
+.pacotes-hero {
+  height: 460px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/hero-pacotes-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  color: var(--text-secondary-color);
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero-line {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .pacotes-hero {
+    height: 620px;
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/hero-pacotes-tablet.jpg");
+  }
+  .hero-content {
+    width: 656px;
+  }
+  .hero-title {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pacotes-hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/hero-pacotes-desktop.jpg");
+  }
+
+  .hero-content {
+    width: 900px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    width: 443px;
+  }
+
+  .hero-description {
+    font-size: 32px;
+    width: 579px;
+  }
+}
