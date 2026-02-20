@@ -15,11 +15,14 @@
 }
 
 .image.bag,
-.image.passport {
+.image.passport,
+.image.japao,
+.image.japao2 {
   height: 254px;
 }
 
-.image.people {
+.image.people,
+.image.japao3 {
   grid-column: span 2;
   height: 182px;
 }
@@ -36,6 +39,17 @@
   background-image: url("../img/img-people-mobile.jpg");
 }
 
+.image-content .image.japao {
+  background-image: url("../img/japao-pacote-mobile.jpg");
+}
+
+.image-content .image.japao2 {
+  background-image: url("../img/japao2-pacote-mobile.jpg");
+}
+.image-content .image.japao3 {
+  background-image: url("../img/japao3-pacote-mobile.jpg");
+}
+
 @media screen and (min-width: 768px) {
   .image-content {
     width: 648px;
@@ -44,12 +58,15 @@
   }
 
   .image.bag,
-  .image.passport {
+  .image.passport,
+  .image.japao,
+  .image.japao2 {
     height: 254px;
     width: 312px;
   }
 
-  .image.people {
+  .image.people,
+  .image.japao3 {
     height: 182px;
     background-position: bottom center;
   }
@@ -62,6 +79,17 @@
   }
   .image-content .image.people {
     background-image: url("../img/img-people-tablet.jpg");
+  }
+
+  .image-content .image.japao {
+    background-image: url("../img/japao-pacote-tablet.jpg");
+  }
+
+  .image-content .image.japao2 {
+    background-image: url("../img/japao2-pacote-tablet.jpg");
+  }
+  .image-content .image.japao3 {
+    background-image: url("../img/japao3-pacote-tablet.jpg");
   }
 }
 
@@ -100,11 +128,14 @@
   }
 
   .image.bag,
-  .image.passport {
+  .image.passport,
+  .image.japao,
+  .image.japao2 {
     height: 254px;
   }
 
-  .image.people {
+  .image.people,
+  .image.japao3 {
     grid-column: span 2;
     height: 182px;
     background-position: bottom center;
@@ -118,5 +149,16 @@
   }
   .image-content .image.people {
     background-image: url("../img/img-people-desktop.jpg");
+  }
+
+  .image-content .image.japao {
+    background-image: url("../img/japao-pacote-desktop.jpg");
+  }
+
+  .image-content .image.japao2 {
+    background-image: url("../img/japao2-pacote-desktop.jpg");
+  }
+  .image-content .image.japao3 {
+    background-image: url("../img/japao3-pacote-desktop.jpg");
   }
 }
