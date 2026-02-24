@@ -40,14 +40,14 @@
 }
 
 .image-content .image.japao {
-  background-image: url("../img/japao-pacote-mobile.jpg");
+  background-image: url("../img/pacotes/japao-pacote-mobile.jpg");
 }
 
 .image-content .image.japao2 {
-  background-image: url("../img/japao2-pacote-mobile.jpg");
+  background-image: url("../img/pacotes/japao2-pacote-mobile.jpg");
 }
 .image-content .image.japao3 {
-  background-image: url("../img/japao3-pacote-mobile.jpg");
+  background-image: url("../img/pacotes/japao3-pacote-mobile.jpg");
 }
 
 @media screen and (min-width: 768px) {
@@ -82,14 +82,14 @@
   }
 
   .image-content .image.japao {
-    background-image: url("../img/japao-pacote-tablet.jpg");
+    background-image: url("../img/pacotes/japao-pacote-tablet.jpg");
   }
 
   .image-content .image.japao2 {
-    background-image: url("../img/japao2-pacote-tablet.jpg");
+    background-image: url("../img/pacotes/japao2-pacote-tablet.jpg");
   }
   .image-content .image.japao3 {
-    background-image: url("../img/japao3-pacote-tablet.jpg");
+    background-image: url("../img/pacotes/japao3-pacote-tablet.jpg");
   }
 }
 
@@ -152,13 +152,13 @@
   }
 
   .image-content .image.japao {
-    background-image: url("../img/japao-pacote-desktop.jpg");
+    background-image: url("../img/pacotes/japao-pacote-desktop.jpg");
   }
 
   .image-content .image.japao2 {
-    background-image: url("../img/japao2-pacote-desktop.jpg");
+    background-image: url("../img/pacotes/japao2-pacote-desktop.jpg");
   }
   .image-content .image.japao3 {
-    background-image: url("../img/japao3-pacote-desktop.jpg");
+    background-image: url("../img/pacotes/japao3-pacote-desktop.jpg");
   }
 }

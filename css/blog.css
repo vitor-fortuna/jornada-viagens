@@ -4,7 +4,7 @@
 .blog-hero {
     height: 400px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                      url("../img/hero-blog-mobile.jpg");
+                      url("../img/blog/hero-blog-mobile.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -53,16 +53,16 @@
 }
 
 .image-restaurante {
-    background-image: url("../img/Tokyo-blog-restaurante-mobile.jpg");
+    background-image: url("../img/blog/Tokyo-blog-restaurante-mobile.jpg");
 }
 .image-ponte {
-    background-image: url("../img/Tokyo-blog-ponte-mobile.jpg");
+    background-image: url("../img/blog/Tokyo-blog-ponte-mobile.jpg");
 }
 
 @media screen and (min-width: 768px) {
     .blog-hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                          url("../img/hero-blog-tablet.png");
+                          url("../img/blog/hero-blog-tablet.png");
     }
 
     .hero-content {
@@ -92,14 +92,14 @@
     }
 
     .image-restaurante {
-        background-image: url("../img/Tokyo-blog-restaurante-tablet.jpg");
+        background-image: url("../img/blog/Tokyo-blog-restaurante-tablet.jpg");
         margin: 0;
     }
 
     .image-ponte {
         width: 648px;
         height: 300px;
-        background-image: url("../img/Tokyo-blog-ponte-tablet.jpg");
+        background-image: url("../img/blog/Tokyo-blog-ponte-tablet.jpg");
     }
 }
 
@@ -109,7 +109,7 @@
     .blog-hero {
         height: 540px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                          url("../img/hero-blog-desktop.jpg");
+                          url("../img/blog/hero-blog-desktop.jpg");
     }
     .hero-content {
         width: 900px;
@@ -118,11 +118,11 @@
     .image-restaurante {
       width: 588px;
       height: 360px;
-        background-image: url("../img/Tokyo-blog-restauranre-desktop.jpg");
+        background-image: url("../img/blog/Tokyo-blog-restaurante-desktop.jpg");
     }
     .image-ponte {
         width: 100%;
-        background-image: url("../img/Tokyo-blog-ponte-desktop.jpg");
+        background-image: url("../img/blog/Tokyo-blog-ponte-desktop.jpg");
     }
 }
 
@@ -153,15 +153,15 @@
 }
 
 .image-osaka {
-    background-image: url("../img/osaka-blog-mobile.jpg");
+    background-image: url("../img/blog/osaka-blog-mobile.jpg");
 }
 
 .image-hiroshima {
-    background-image: url("../img/hiroshima-blog-mobile.jpg");
+    background-image: url("../img/blog/hiroshima-blog-mobile.jpg");
 }
 
 .image-kyoto {
-    background-image: url("../img/kyoto-blog-mobile.jpg");
+    background-image: url("../img/blog/kyoto-blog-mobile.jpg");
 }
 
 
@@ -202,9 +202,9 @@
         
     }
 
-    .image-osaka { background-image: url("../img/osaka-blog-tablet.jpg"); }
-    .image-hiroshima { background-image: url("../img/hiroshima-blog-tablet.jpg"); }
-    .image-kyoto { background-image: url("../img/kyoto-blog-tablet.jpg"); }
+    .image-osaka { background-image: url("../img/blog/osaka-blog-tablet.jpg"); }
+    .image-hiroshima { background-image: url("../img/blog/hiroshima-blog-tablet.jpg"); }
+    .image-kyoto { background-image: url("../img/blog/kyoto-blog-tablet.jpg"); }
 
     .related-content {
         display: flex;
@@ -245,13 +245,13 @@
 
     
     .image-osaka {
-        background-image: url("../img/osaka-blog-desktop.jpg");
+        background-image: url("../img/blog/osaka-blog-desktop.jpg");
     }
     .image-hiroshima {
-        background-image: url("../img/hiroshima-blog-desktop.jpg");
+        background-image: url("../img/blog/hiroshima-blog-desktop.jpg");
     }
     .image-kyoto {
-        background-image: url("../img/kyoto-blog-desktop.jpg");
+        background-image: url("../img/blog/kyoto-blog-desktop.jpg");
     }
 
     /* Estilo do conteúdo do card */
