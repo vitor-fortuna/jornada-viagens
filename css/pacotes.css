@@ -36,7 +36,9 @@
   line-height: 1.4;
 }
 
-
+.pacotes-footer-img {
+  background-image: url("../img/hero-footer-pct-mobile.jpg");
+}
 
 @media screen and (min-width: 768px) {
   .pacotes-hero {
@@ -50,6 +52,10 @@
   }
   .hero-title {
     font-size: 56px;
+  }
+
+  .pacotes-footer-img {
+    background-image: url("../img/hero-footer-pct-tablet.jpg");
   }
 }
 
@@ -72,5 +78,9 @@
   .hero-description {
     font-size: 32px;
     width: 579px;
+  }
+
+  .pacotes-footer-img {
+    background-image: url("../img/hero-footer-pct-desktop.jpg");
   }
 }
