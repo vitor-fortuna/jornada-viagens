@@ -11,36 +11,9 @@
   align-items: center;
 }
 
-.hero-content {
-  width: 312px;
-  margin: 0 auto;
-}
-
-.hero-title {
-  color: var(--text-secondary-color);
-  font-size: 48px;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-
-.hero-line {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  margin-bottom: 24px;
-}
-
-.hero-description {
-  color: var(--text-secondary-color);
-  font-size: 20px;
-  line-height: 1.4;
-}
-
 .pacotes-footer-img {
   background-image: url("../img/pacotes/hero-footer-pct-mobile.jpg");
 }
-
-
 
 @media screen and (min-width: 768px) {
   .pacotes-hero {
@@ -57,8 +30,8 @@
   }
 
   .pacotes-footer-img {
-  background-image: url("../img/pacotes/hero-footer-pct-tablet.jpg");
-}
+    background-image: url("../img/pacotes/hero-footer-pct-tablet.jpg");
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -83,6 +56,6 @@
   }
 
   .pacotes-footer-img {
-  background-image: url("../img/pacotes/hero-footer-pct-desktop.jpg");
-}
+    background-image: url("../img/pacotes/hero-footer-pct-desktop.jpg");
+  }
 }

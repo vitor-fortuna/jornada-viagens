@@ -34,6 +34,12 @@
     background-image: url("../img/hero-footer-tablet.jpg");
   }
 
+  .hero-img,
+.bottom-hero-img {
+  width: 100%;
+  height: 400px;
+}
+
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -49,6 +55,12 @@
     background-image: url("../img/hero-footer-desktop.jpg");
     height: 600px;
   }
+
+    .hero-img,
+.bottom-hero-img {
+  width: 100%;
+  height: 600px;
+}
 
   .hero h2 {
     padding: 88px 120px;

@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <meta name="description" content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis" />
-    <meta name="og:title" content="Jornada Viagens">
-    <meta name="og:description" content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis">
-    <meta name="og:image" content="https://vitor-fortuna.github.io/jornada-viagens/img/bussula-jornada-texto-branca.png">
-    <meta name="og:type" content="website">
-    <meta name="og:url" content="https://vitor-fortuna.github.io/jornada-viagens">
+    <meta
+      name="description"
+      content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis"
+    />
+    <meta name="og:title" content="Jornada Viagens" />
+    <meta
+      name="og:description"
+      content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis"
+    />
+    <meta
+      name="og:image"
+      content="https://vitor-fortuna.github.io/jornada-viagens/img/bussula-jornada-texto-branca.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:url"
+      content="https://vitor-fortuna.github.io/jornada-viagens"
+    />
     <link rel="icon" href="favico.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./css/blog.css" />
     <title>Blog - Jornada Viagens</title>
@@ -149,7 +161,10 @@
             <div class="related-content">
               <h3 class="content-title">Osaka</h3>
               <p class="content-text">
-                Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa por sua gastronomia deliciosa e por ser um excelente ponto de partida para explorar outras cidades japonesas próximas.
+                Osaka é uma cidade agitada e moderna no Japãos. A cidade é
+                famosa por sua gastronomia deliciosa e por ser um excelente
+                ponto de partida para explorar outras cidades japonesas
+                próximas.
               </p>
               <a href="#" class="button related-button">Ver detalhes</a>
             </div>
@@ -160,7 +175,10 @@
             <div class="related-content">
               <h3 class="content-title">Hiroshima</h3>
               <p class="content-text">
-                Cidade localizada no sudoeste do Japão, conhecida mundialmente por ter sido o alvo do primeiro bombardeio atômico da históri. Hoje, a cidade é um símbolo de paz e reconciliação. Além disso, Hiroshima também é conhecida por sua gastronomia.
+                Cidade localizada no sudoeste do Japão, conhecida mundialmente
+                por ter sido o alvo do primeiro bombardeio atômico da históri.
+                Hoje, a cidade é um símbolo de paz e reconciliação. Além disso,
+                Hiroshima também é conhecida por sua gastronomia.
               </p>
               <a href="#" class="button related-button">Ver detalhes</a>
             </div>
@@ -171,7 +189,11 @@
             <div class="related-content">
               <h3 class="content-title">Kyoto</h3>
               <p class="content-text">
-                Kyoto é uma cidade localizada no centro do Japão, conhecida por ser a antiga capital do país e preservar muitas tradições culturais japonesas. Com seus templos históricos, jardins tradicionais e cerimônias de chá, é um mergulho na cultura japonesa.
+                Kyoto é uma cidade localizada no centro do Japão, conhecida por
+                ser a antiga capital do país e preservar muitas tradições
+                culturais japonesas. Com seus templos históricos, jardins
+                tradicionais e cerimônias de chá, é um mergulho na cultura
+                japonesa.
               </p>
               <a href="#" class="button related-button">Ver detalhes</a>
             </div>
@@ -214,19 +236,19 @@
         </div>
       </div>
     </footer>
-<script>
-  const links = document.querySelectorAll('.list-links a');
-  const currentPath = window.location.pathname;
+    <script>
+      const links = document.querySelectorAll(".list-links a");
+      const currentPath = window.location.pathname;
 
-  // Só aplica o sublinhado se NÃO estivermos na Home
-  if (currentPath !== "/" && !currentPath.includes("index.html")) {
-    links.forEach(link => {
-      // Se o link contiver o nome da página atual, ele ganha a marcação
-      if (currentPath.includes(link.getAttribute('href'))) {
-        link.classList.add('active-page');
+      // Só aplica o sublinhado se NÃO estivermos na Home
+      if (currentPath !== "/" && !currentPath.includes("index.html")) {
+        links.forEach((link) => {
+          // Se o link contiver o nome da página atual, ele ganha a marcação
+          if (currentPath.includes(link.getAttribute("href"))) {
+            link.classList.add("active-page");
+          }
+        });
       }
-    });
-  }
-</script>
+    </script>
   </body>
 </html>
